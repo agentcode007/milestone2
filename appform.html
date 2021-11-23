@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Application Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="page">
+
+      <div id="header" >
+        <div id="topcontent">
+          <img src="img/logo.png" alt="logo" usemap="#workmap" height=100>
+          <map name="workmap">
+          <area shape="rect" coords="0,0,420,100" alt="ccse-ksu" href=http://ccse.kennesaw.edu/it/ target="_blank">
+          </map>
+          <h1>
+            Center for Applied Research in Information Technology
+          </h1>
+        </div>
+        <div class="scrollmenu" >
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="events.html">Events</a>
+          <a href="apply.html">Apply</a>
+        </div>
+
+      </div>
+      <div id="body">
+        <script src="script.js"></script>
+        <div id="formed" class="formed"> 
+          <h2> Application Form</h2>
+          <form id="secretform">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <button onclick="congrats()" style="margin-top:10px">Submit</button>
+          </form>
+        </div>
+        <div class="eventlogo">
+          <img src="img/logo2.png" alt="logo2" usemap="#workmap"height=75px>
+          <map name="workmap">
+          <area shape="rect" coords="90,180,410,220" alt="calendar-ksu" href=http://ccse.kennesaw.edu/it/  target="_blank">
+          </map>
+        </div>
+      </div>
+
+      <div id="footer">
+        <h3>
+          KSU Contact Info
+        </h3>
+        <div class="table">
+          <table class="contact">
+            <tr>
+              <th>Kennesaw Campus</th>
+              <th>Marietta Campus</th>
+              <th>Phone</th>
+            </tr>
+            <tr>
+              <td>1000 Chastain Road<br> Kennesaw, GA 30144</td>
+              <td>1100 South Marietta Pkwy<br> Marietta, GA 30060</td>
+              <td>470-KSU-INFO<br>(470-578-4636)</td>
+        </table>
+        </div>
+         <a style="color: white" href="https://www.kennesaw.edu/info/">kennesaw.edu/info</a>
+      </div>
+    </div>
+  </body>
+</html>

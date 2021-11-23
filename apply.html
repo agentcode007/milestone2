@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Apply</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="page">
+
+      <div id="header" >
+        <div id="topcontent">
+          <img src="img/logo.png" usemap="#workmap" height=100>
+          <map name="workmap">
+          <area shape="rect" coords="0,0,420,100" alt="ccse-ksu" href=http://ccse.kennesaw.edu/it/ target="_blank">
+          </map>
+          <h1>
+            Center for Applied Research in Information Technology
+          </h1>
+        </div>
+        <div class="scrollmenu" >
+         <a href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="events.html">Events</a>
+         <a href="apply.html">Apply</a>
+        </div>
+      </div>
+
+      <div id="body">
+        <div class="maincontent">
+          <h2>
+          Student Assistant Opportunities
+          </h2>
+          <p>
+            There are currently four student assistant positions available. Please use the form to check your eligibility for a position in the upcoming year.
+          </p>
+          <div id="scriptedarea" class="scriptedarea"> 
+            <div id="studenttype" class="studenttype">
+              <input id="radio1" name="set1" type="radio" value="selection1">
+              Undergraduate Student  
+              </input><br>
+              <input id="radio2" name="set1" type="radio" value="selection2">
+              Graduate Student  
+              </input><br>
+              <button type="button" onclick="check1()" id="button1">Next</button>
+            </div>
+            
+            <div id="grades" class="grades">
+              <form id="firstform" class="firstform">
+                <label id="class1" for="class1"></label>
+                <input type="text" id="grade1" name="grade1"><br>
+                <label id="class2" for="class2"></label>
+                <input type="text" id="grade2" name="grade2"><br>
+                <label id="class3" for="class3"></label>
+                <input type="text" id="grade3" name="grade3"><br>
+                <label id="class4" for="class4"></label>
+                <input type="text" id="grade4" name="grade4"><br>
+                <label id="class5" for="class5"></label>
+                <input type="text" id="grade5" name="grade5"><br>
+                <button type="button" onclick="evaluateform()" id="ebutton" style="margin-top:10px" >Evaluate</button>
+              </form>
+            </div>
+          </div>
+          <div class="evaluation" id="evaluation">
+              <p id="result"></p>
+              <a id="alink" href="appform.html">Click Here To Apply</a>
+          </div>
+        </div>
+
+        </div>  
+        <div class="eventlogo">
+          <img src="img/logo2.png" alt="logo2" usemap="#workmap"height=75px>
+          <map name="workmap">
+          <area shape="rect" coords="90,180,410,220" alt="calendar-ksu" href=http://ccse.kennesaw.edu/it/  target="_blank">
+          </map>
+        </div>
+
+      </div>
+    
+      <div id="footer">
+        <h3>
+          KSU Contact Info
+        </h3>
+        <div class="table">
+          <table class="contact">
+            <tr>
+              <th>Kennesaw Campus</th>
+              <th>Marietta Campus</th>
+              <th>Phone</th>
+            </tr>
+            <tr>
+              <td>1000 Chastain Road<br> Kennesaw, GA 30144</td>
+              <td>1100 South Marietta Pkwy<br> Marietta, GA 30060</td>
+              <td>470-KSU-INFO<br>(470-578-4636)</td>
+          </table>
+        </div>
+         <a style="color: white" href="https://www.kennesaw.edu/info/">kennesaw.edu/info</a>
+      </div>
+    </div>
+  </body>
+</html>
